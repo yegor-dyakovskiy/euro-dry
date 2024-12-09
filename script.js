@@ -20,5 +20,8 @@ async function loadAllContent() {
     await loadHTML('content', './html/side-banners.html');
     await loadHTML('side-banners__content', './html/advantages.html');
     await loadHTML('side-banners__content', './html/socials.html');
+    await loadHTML('side-banners__content', './html/video.html');
+    await loadHTML('side-banners__content', './html/gallery.html');
+    await loadHTML('side-banners__content', './html/services.html');
 }
 loadAllContent();

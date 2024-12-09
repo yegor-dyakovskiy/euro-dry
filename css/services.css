@@ -1,0 +1,75 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.services__title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Stengazeta';
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services__subtitle {
+    text-align: center;
+    width: 850px;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--color-secondary);
+    margin-bottom: 60px;
+}
+.services__subtitle span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    background: #fff;
+    justify-content: space-evenly;
+}
+.services__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 450px;
+    width: 500px;
+}
+
+.services__list-item--title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Stengazeta';
+    color: var(--color-primary);
+    text-align: center;
+    height: 40px;
+}
+
+.services__list-item--img {
+    flex-grow: 1;
+    object-fit: contain;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.services__list-item--text {
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+    height: 40px;
+}
+
+.services__list-item--price {
+    font-size: 24px;
+    font-family: 'Roboto';
+    text-align: center;
+    height: 40px;
+}
