@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #fff;
+    margin-bottom: 80px;
 }
 .services__title {
     text-transform: uppercase;
@@ -11,7 +12,7 @@
     font-family: 'Stengazeta';
     color: var(--color-primary);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .services__subtitle {
     text-align: center;
@@ -21,9 +22,9 @@
     font-family: 'Roboto';
     font-weight: 400;
     color: var(--color-secondary);
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
-.services__subtitle span {
+.services__subtitle_bold {
     font-weight: 700;
     font-size: 20px;
 }
@@ -33,17 +34,18 @@
     padding: 0 60px;
     background: #fff;
     justify-content: space-evenly;
+    margin-bottom: 70px;
 }
 .services__list-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: 450px;
+    height: 426px;
     width: 500px;
 }
 
-.services__list-item--title {
+.services__item-title {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 400;
@@ -53,23 +55,98 @@
     height: 40px;
 }
 
-.services__list-item--img {
+.services__item-img {
     flex-grow: 1;
     object-fit: contain;
     margin-bottom: 20px;
     max-width: 400px;
 }
 
-.services__list-item--text {
+.services__item-text {
     font-size: 20px;
     font-family: 'Roboto';
     text-align: center;
     height: 40px;
 }
 
-.services__list-item--price {
+.services__item-price {
     font-size: 24px;
     font-family: 'Roboto';
     text-align: center;
     height: 40px;
+}
+.servces__disclaimer {
+    text-align: left;
+    width: 100%;
+    color: black;
+    opacity: 0.4;
+    padding-left: 10px;
+}
+.services__details {
+    display: flex;
+    gap: 55px;
+    align-items: flex-start;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.services__details-item,
+.services__details-text {
+    color: var(--color-primary);
+    font-size: 24px;
+    line-height: 40px;
+}
+.services__details-text {
+    margin-left: -30px;
+}
+.services__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    line-height: 21px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    align-self: center;
+}
+.services__instructions-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 250px;
+}
+.services__instructions-title {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+.services__line-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+.services_line {
+    width: 100%;
+    max-width: 200px;
+    height: 1px;
+    background: var(--color-primary);
+}
+.services__card-box {
+    display: flex;
+    gap: 10px;
+    padding: 0 90px;
+}
+.services__instructions-text {
+    font-size: 14px;
+    color: var(--color-secondary);
 }

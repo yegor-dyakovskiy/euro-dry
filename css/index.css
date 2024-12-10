@@ -5,6 +5,7 @@
 @import url('./video.css');
 @import url('./gallery.css');
 @import url('./services.css');
+@import url('./form.css');
 
 * {
     margin: 0;
