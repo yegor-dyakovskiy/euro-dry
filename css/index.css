@@ -19,14 +19,6 @@
     --color-white: #ffffff;
 }
 
-@font-face {
-    font-family: 'Stengazeta';
-    src: url('../fonts/Stengazeta-Regular.woff2') format('woff2'),
-        url('../fonts/Stengazeta-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 .page {
     display: flex;
     justify-content: center;
