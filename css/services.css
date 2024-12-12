@@ -150,3 +150,11 @@
     font-size: 14px;
     color: var(--color-secondary);
 }
+@media (max-width: 1250px) {
+    .services__list {
+        padding: 0 30px;
+    }
+    .services__line-box {
+        gap: 17.5%;
+    }
+}

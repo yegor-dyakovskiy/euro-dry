@@ -22,3 +22,25 @@
     flex-direction: column;
     background-color: #fff;
 }
+
+@media (max-width: 1250px) {
+    .side-banners__content {
+        width: 100%;
+        display: block;
+    }
+    .side-banners__right,
+    .side-banners__left {
+        height: 9700px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .side-banners__content {
+        width: 100%;
+        display: block;
+    }
+    .side-banners__right,
+    .side-banners__left {
+        display: none;
+    }
+}

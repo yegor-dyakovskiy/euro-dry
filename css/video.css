@@ -17,15 +17,25 @@
 .video__box {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 .video__box-link {
     max-width: 600px;
     max-height: 500px;
     background-color: #d9d9d9;
+    flex: 1 1 50%;
 }
 .video__item {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+@media (max-width: 1160px) {
+    .video__box {
+        gap: 30px;
+    }
+    .video__box-link {
+        flex: 1 1 50%;
+    }
 }

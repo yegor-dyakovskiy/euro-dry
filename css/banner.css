@@ -56,3 +56,25 @@
     font-size: 13px;
     color: var(--color-white);
 }
+
+@media (max-width: 1750px) {
+    .banner {
+        background-position: 50% 0;
+        padding: 135px 0px 160px 200px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .banner {
+        background-position: 70% 0;
+        padding: 135px 0px 160px 85px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .banner {
+        /*  background-image: url('../images/banner-800px.webp'); */
+        display: flex;
+        justify-content: left;
+    }
+}
