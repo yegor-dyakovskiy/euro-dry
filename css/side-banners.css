@@ -36,11 +36,15 @@
 
 @media (max-width: 1160px) {
     .side-banners__content {
-        width: 100%;
-        display: block;
+        height: 9100px;
     }
     .side-banners__right,
     .side-banners__left {
         display: none;
+    }
+}
+@media (max-width: 900px) {
+    .side-banners__content {
+        height: 5310px;
     }
 }

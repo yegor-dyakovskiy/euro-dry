@@ -47,7 +47,7 @@
         flex-basis: 50%;
         display: grid;
         grid-template-columns: 0.16fr 0.7fr;
-        align-content: center;
+        align-content: flex-start;
         justify-content: center;
         align-items: center;
         gap: 0;
@@ -76,5 +76,27 @@
     }
     .advantages__card-img {
         margin-left: 0 !important;
+    }
+}
+@media (max-width: 1060px) {
+    .advantages__card {
+        grid-template-columns: 0.18fr 0.7fr;
+    }
+    .advantages {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .advantages__card {
+        grid-template-columns: 0.18fr 0.7fr;
+    }
+    .advantages__card-text {
+        font-size: 14px;
+    }
+    .advantages__card img {
+        width: 60px;
+    }
+    .advantages {
+        row-gap: 30px;
     }
 }

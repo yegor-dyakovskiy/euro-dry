@@ -64,17 +64,50 @@
     }
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1500px) {
     .banner {
-        background-position: 70% 0;
-        padding: 135px 0px 160px 85px;
+        padding: 135px 0px 80px 85px;
+        background-image: url('../images/banner1500.webp');
     }
 }
 
 @media (max-width: 1250px) {
     .banner {
-        /*  background-image: url('../images/banner-800px.webp'); */
+        background-image: url('../images/banner1250.webp');
         display: flex;
         justify-content: left;
+    }
+}
+
+@media (max-width: 1000px) {
+    .banner {
+        background-position: 60% 0;
+    }
+}
+@media (max-width: 800px) {
+    .banner {
+        background-image: url('../images/banner-800px.webp');
+        padding: 80px 0px 160px 80px;
+    }
+    .banner__title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .banner__subtitle {
+        font-size: 16px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .banner__button {
+        height: 75px;
+        width: 275px;
+        padding: 25px 30px;
+        align-items: flex-start;
+    }
+    .banner__button-text {
+        font-size: 16px;
+    }
+    .banner__button-subtext {
+        width: 160px;
     }
 }

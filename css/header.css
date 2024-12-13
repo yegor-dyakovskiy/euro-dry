@@ -107,7 +107,81 @@
 .burger-line + .burger-line {
     margin-top: 10px;
 }*/
-
+@media (max-width: 1400px) {
+    .header__navigation {
+        width: 600px;
+    }
+    .header__content {
+        width: 900px;
+    }
+}
+@media (max-width: 1200px) {
+    .header__navigation {
+        width: 400px;
+    }
+    .header__content {
+        width: 750px;
+    }
+}
+@media (max-width: 1000px) {
+    .header__navigation {
+        width: 400px;
+    }
+    .header__content {
+        width: 550px;
+    }
+    .header__button {
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .header__navigation {
+        display: none;
+    }
+    .header__text {
+        display: none;
+    }
+    .header__content {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header__navigation_burger {
+        display: flex;
+        width: 100%;
+    }
+    .hamburger-menu__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 80px;
+        list-style: none;
+    }
+    .header__link {
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .hamburger-menu__openingHours-title {
+        margin-bottom: 12px;
+    }
+    .hamburger-menu__openingHours-title,
+    .hamburger-menu__openingHours-text {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .hamburger-menu__openingHours {
+        margin-bottom: 20px;
+    }
+    .hamburger-menu__openingHours-number {
+        font-family: 'Lato';
+        font-size: 20px;
+    }
+}
+@media (max-width: 380px) {
+    .hamburger-menu__button {
+        left: 80%;
+    }
+}
 @media (max-width: 750px) {
     /*  .burger-menu {
         display: none;
@@ -121,9 +195,8 @@
         display: flex;
         padding-left: 20px;
         justify-content: space-between;
-
-        max-width: 810px;
-        height: 60px;
+        max-width: 750px;
+        height: 72px;
         background: #f4f7f7;
     }
 
@@ -322,80 +395,5 @@
     .hamburger-menu__icon {
         width: 32px;
         height: 32px;
-    }
-}
-@media (max-width: 1400px) {
-    .header__navigation {
-        width: 600px;
-    }
-    .header__content {
-        width: 900px;
-    }
-}
-@media (max-width: 1200px) {
-    .header__navigation {
-        width: 400px;
-    }
-    .header__content {
-        width: 750px;
-    }
-}
-@media (max-width: 1000px) {
-    .header__navigation {
-        width: 400px;
-    }
-    .header__content {
-        width: 550px;
-    }
-    .header__button {
-        display: none;
-    }
-}
-@media (max-width: 750px) {
-    .header__navigation {
-        display: none;
-    }
-    .header__text {
-        display: none;
-    }
-    .header__content {
-        width: 100%;
-        padding: 0 20px;
-    }
-    .header__navigation_burger {
-        display: flex;
-        width: 100%;
-    }
-    .hamburger-menu__container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 80px;
-        list-style: none;
-    }
-    .header__link {
-        margin-bottom: 20px;
-        padding-left: 20px;
-    }
-    .hamburger-menu__openingHours-title {
-        margin-bottom: 12px;
-    }
-    .hamburger-menu__openingHours-title,
-    .hamburger-menu__openingHours-text {
-        font-family: 'Roboto';
-        font-size: 20px;
-        font-weight: 700;
-    }
-    .hamburger-menu__openingHours {
-        margin-bottom: 20px;
-    }
-    .hamburger-menu__openingHours-number {
-        font-family: 'Lato';
-        font-size: 20px;
-    }
-}
-@media (max-width: 380px) {
-    .hamburger-menu__button {
-        left: 80%;
     }
 }
