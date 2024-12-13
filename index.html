@@ -4,9 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="noindex, nofollow" />
-        <link href="/css/index.css" rel="stylesheet" />
-        <link href="/fonts/stengazeta/stylesheet.css" rel="stylesheet" />
-        <link href="/fonts/roboto/stylesheet.css" rel="stylesheet" />
+        <link href="./fonts/inter/stylesheet.css" rel="stylesheet" />
+        <link href="./fonts/lato/stylesheet.css" rel="stylesheet" />
+        <link href="./fonts/roboto/stylesheet.css" rel="stylesheet" />
+        <link href="./fonts/stengazeta/stylesheet.css" rel="stylesheet" />
+        <link href="./css/index.css" rel="stylesheet" />
         <title>Clean Moskow</title>
     </head>
     <body class="page">
@@ -33,11 +35,11 @@
                     <a href="tel:+79100899001" class="header__button">
                         <span class="header__textTelephone">8 (910) 089-90-01</span>
                     </a>
-                    <div class="burger-menu">
+                    <!--<div class="burger-menu">
                         <div class="burger-line"></div>
                         <div class="burger-line burger-line_short"></div>
                         <div class="burger-line"></div>
-                    </div>
+                    </div>-->
                 </div>
 
                 <p class="header__text">
@@ -45,6 +47,133 @@
                     Пн-Вс 09:00-23:00 <br />
                     Работаем в Москве и МО
                 </p>
+            </header>
+
+            <header class="header-mobile">
+                <div class="header-mobile__content">
+                    <a class="header-mobile__link" href="./index.html">
+                        <img
+                            class="header__logo"
+                            src="./images/logo.png"
+                            alt="Логотип евро химчистки, EURO DRY CLEANING"
+                        />
+                    </a>
+
+                    <div class="hamburger-menu">
+                        <input
+                            class="hamburger-menu__toggle"
+                            id="hamburger-menu__toggle"
+                            type="checkbox"
+                        />
+                        <div class="hamburger-menu__wrapper"></div>
+                        <label class="hamburger-menu__button" for="hamburger-menu__toggle">
+                            <span></span>
+                        </label>
+
+                        <div
+                            class="hamburger-menu__box hamburger-menu__box_padding hamburger-menu__box_padding_min"
+                        >
+                            <a class="header__link" href="./index.html">
+                                <img
+                                    class="header__logo"
+                                    src="./images/logo-white.svg"
+                                    alt="Логотип евро химчистки, EURO DRY CLEANING"
+                                />
+                            </a>
+                            <nav class="header__navigation_burger">
+                                <ul class="hamburger-menu__container">
+                                    <li>
+                                        <a
+                                            class="hamburger-menu__item hamburger-menu__item_padding"
+                                            href="./index.html"
+                                            >Главная</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="hamburger-menu__item" href="./aboutMe.html"
+                                            >Цены</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="hamburger-menu__item" href="./prices.html"
+                                            >Фото</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="hamburger-menu__item" href="./questions.html"
+                                            >Блог</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="hamburger-menu__item" href="./contacts.html"
+                                            >Отзывы</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="hamburger-menu__item" href="./contacts.html"
+                                            >Контакты</a
+                                        >
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <div class="hamburger-menu__containerBoottom">
+                                <div class="hamburger-menu__openingHours">
+                                    <h6 class="hamburger-menu__openingHours-title">
+                                        Время работы: <br />
+                                        Пн-Вс 09:00-23:00
+                                    </h6>
+
+                                    <p class="hamburger-menu__openingHours-text">
+                                        Работаем в Москве и МО
+                                    </p>
+                                    <p class="hamburger-menu__openingHours-number">
+                                        8 (910) 089-90-01
+                                    </p>
+                                </div>
+                                <div class="hamburger-menu__containerBoottomTwo">
+                                    <a
+                                        class="hamburger-menu__social"
+                                        href="https://telegram.me/+79168829426"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <img
+                                            class="hamburger-menu__icon hamburger-menu__icon_margin"
+                                            src="/icons/telegram.svg"
+                                            alt="иконка Telegram"
+                                        />
+                                    </a>
+
+                                    <a
+                                        class="hamburger-menu__social"
+                                        href="https://vk.com/lami_ko"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <img
+                                            class="hamburger-menu__icon hamburger-menu__icon_margin"
+                                            src="./icons/vkontakte.svg"
+                                            alt="иконка Vkontakte"
+                                        />
+                                    </a>
+                                    <a
+                                        class="hamburger-menu__social"
+                                        href="https://wa.me/+79168829426"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <img
+                                            class="hamburger-menu__icon"
+                                            src="./icons/whatsapp.svg"
+                                            alt="иконка WhatsApp"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </header>
 
             <main id="content" class="content"></main>
@@ -131,6 +260,5 @@
                 <p class="footer__paragraph">Euro Dry Cleaning Выездная химчистка мебели.</p>
             </footer>
         </div>
-        <script src="/script.js"></script>
     </body>
 </html>
