@@ -34,15 +34,12 @@
     width: 565px;
     height: 425px;
 }
-.hide-gallery-desctop {
-    display: none;
-}
 @media (max-width: 1250px) {
     .gallery__photos {
         justify-content: space-around;
     }
     .gallery__photos-photo {
-        width: 500px;
+        width: 550px;
         height: auto;
     }
 }
@@ -63,46 +60,42 @@
     }
 }
 @media (max-width: 900px) {
-    .gallery {
-        display: flex;
-    }
-    .hide-gallery-mobile {
-        display: none;
-    }
     .gallery__textbox {
         display: none;
     }
     .gallery__photos {
-        margin-bottom: 30px;
-        gap: 1%;
+        display: grid;
+        grid-auto-flow: column; /* Элементы выстраиваются в одну линию по колонкам */
+        grid-template-rows: 1fr 1fr; /* Две строки для создания эффекта "чередования" */
+        white-space: nowrap; /* Предотвращаем перенос */
+        column-gap: 17px;
+        row-gap: 10px;
+        max-height: 500px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+        justify-content: space-between;
     }
+}
+.gallery__photos-photo {
+    width: 247px;
+    height: auto;
+}
 
-    .gallery__photos-photo {
-        max-width: 250px;
-        height: auto;
-    }
-    .gallery__buttons {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
-    .gallery {
-        margin-bottom: 30px;
-    }
+.gallery__photos img:nth-child(2n) {
+    grid-row: 2; /* Каждое второе изображение отправляем во вторую строку */
 }
-@media (max-width: 785px) {
-    .gallery__photos-photo {
-        max-width: 220px;
-    }
+
+.gallery__photos img:nth-child(2n-1) {
+    grid-row: 1; /* Все остальные изображения остаются в первой строке */
 }
-@media (max-width: 475px) {
-    .gallery__photos-photo {
-        max-width: 400px;
-    }
-    .gallery__photos {
-        padding: 0 20px;
-        margin-bottom: 10px;
-    }
+.gallery__buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery {
+    margin-bottom: 30px;
 }

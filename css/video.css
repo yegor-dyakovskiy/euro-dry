@@ -47,3 +47,20 @@
         margin-bottom: 20px;
     }
 }
+@media (max-width: 780px) {
+    .video {
+        margin-bottom: 190px;
+    }
+    .video__box {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 0 7%;
+    }
+    .video__box-link {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 780px;
+        height: auto;
+    }
+}

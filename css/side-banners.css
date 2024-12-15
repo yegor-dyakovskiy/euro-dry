@@ -27,6 +27,7 @@
     .side-banners__content {
         width: 100%;
         display: block;
+        padding-bottom: 100px;
     }
     .side-banners__right,
     .side-banners__left {
@@ -36,15 +37,10 @@
 
 @media (max-width: 1160px) {
     .side-banners__content {
-        height: 9100px;
+        height: auto;
     }
     .side-banners__right,
     .side-banners__left {
         display: none;
-    }
-}
-@media (max-width: 900px) {
-    .side-banners__content {
-        height: 5310px;
     }
 }

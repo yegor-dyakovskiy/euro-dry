@@ -84,10 +84,10 @@
         background-position: 60% 0;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .banner {
-        background-image: url('../images/banner-800px.webp');
         padding: 80px 0px 160px 80px;
+        background-position: 60% 0;
     }
     .banner__title {
         font-size: 32px;
@@ -109,5 +109,10 @@
     }
     .banner__button-subtext {
         width: 160px;
+    }
+}
+@media (max-width: 800px) {
+    .banner {
+        background-image: url('../images/banner-800px.webp');
     }
 }

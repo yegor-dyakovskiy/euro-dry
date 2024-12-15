@@ -100,3 +100,30 @@
         row-gap: 30px;
     }
 }
+@media (max-width: 780px) {
+    .advantages {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .advantages__card {
+        width: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .advantages {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 30px 15px 30px 15px;
+    }
+    .advantages__card {
+        width: 100%;
+    }
+    .advantages__card img {
+        margin-right: 10px;
+    }
+    .advantages__card-text {
+        font-size: 12px;
+    }
+}
