@@ -44,3 +44,8 @@
         display: none;
     }
 }
+@media (max-width: 400px) {
+    .side-banners__content {
+        padding-bottom: 10px;
+    }
+}

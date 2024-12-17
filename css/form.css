@@ -75,7 +75,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-primary);
-    width: 345px;
+    width: 100%;
     border-radius: 6px;
     padding: 16px 20px;
     border: none;
@@ -143,5 +143,10 @@
     }
     .form__button {
         align-self: center;
+    }
+}
+@media (max-width: 400px) {
+    .form {
+        margin-bottom: 20px;
     }
 }

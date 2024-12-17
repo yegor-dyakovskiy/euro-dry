@@ -125,5 +125,7 @@
     }
     .advantages__card-text {
         font-size: 12px;
+        min-width: 210px;
+        line-height: 15px;
     }
 }

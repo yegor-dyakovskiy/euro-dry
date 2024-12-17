@@ -49,12 +49,16 @@
     font-size: 24px;
     line-height: 28px;
     color: var(--color-white);
+    white-space: nowrap;
+    text-align: center;
 }
 
 .banner__button-subtext {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: var(--color-white);
+    white-space: nowrap;
+    text-align: center;
 }
 
 @media (max-width: 1750px) {
@@ -90,7 +94,7 @@
         background-position: 60% 0;
     }
     .banner__title {
-        font-size: 32px;
+        font-size: 40px;
         margin-bottom: 30px;
     }
     .banner__subtitle {
@@ -100,19 +104,34 @@
     }
     .banner__button {
         height: 75px;
-        width: 275px;
-        padding: 25px 30px;
-        align-items: flex-start;
+        width: 310px;
+        padding: 25px 15px;
     }
     .banner__button-text {
-        font-size: 16px;
-    }
-    .banner__button-subtext {
-        width: 160px;
+        font-size: 20px;
     }
 }
 @media (max-width: 800px) {
     .banner {
         background-image: url('../images/banner-800px.webp');
+    }
+}
+@media (max-width: 700px) {
+    .banner {
+        background-position: 0;
+    }
+}
+@media (max-width: 450px) {
+    .banner {
+        padding: 100px 20px 140px 20px;
+    }
+    .banner__title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+    .banner__button {
+        height: 85px;
+        width: 98%;
+        padding: 15px 15px;
     }
 }

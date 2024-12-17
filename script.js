@@ -16,14 +16,14 @@ async function loadHTML(id, file) {
 }
 
 async function loadAllContent() {
-    await loadHTML('content', './html/banner.html');
-    await loadHTML('content', './html/side-banners.html');
-    await loadHTML('side-banners__content', './html/advantages.html');
-    await loadHTML('side-banners__content', './html/socials.html');
-    await loadHTML('side-banners__content', './html/video.html');
-    await loadHTML('side-banners__content', './html/gallery.html');
-    await loadHTML('side-banners__content', './html/services.html');
-    await loadHTML('side-banners__content', './html/socials-banner.html');
-    await loadHTML('side-banners__content', './html/form.html');
+    // await loadHTML('content', './html/banner.html');
+    //await loadHTML('content', './html/side-banners.html');
+    //  await loadHTML('side-banners__content', './html/advantages.html');
+    //  await loadHTML('side-banners__content', './html/socials.html');
+    //  await loadHTML('side-banners__content', './html/video.html');
+   // await loadHTML('side-banners__content', './html/gallery.html');
+    //   await loadHTML('side-banners__content', './html/services.html');
+    //  await loadHTML('side-banners__content', './html/socials-banner.html');
+    // await loadHTML('side-banners__content', './html/form.html');
 }
 loadAllContent();
