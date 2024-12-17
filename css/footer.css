@@ -82,8 +82,9 @@
     margin-top: 80px;
     width: 184px;
 }
-/* .footer__icon {
-} */
+.footer__icon {
+    cursor: pointer;
+}
 
 .footer__paragraph {
     margin: 0;

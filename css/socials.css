@@ -33,6 +33,7 @@
     gap: 5px;
     text-decoration: none;
     width: 360px;
+    cursor: pointer;
 }
 .socials_banner {
     padding: 120px 5px;
@@ -51,6 +52,9 @@
     padding: 0 150px;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hide-on-desctop-socials-banner {
+    display: none;
 }
 @media (max-width: 1250px) {
     .socials__buttonbox {
@@ -95,6 +99,9 @@
     }
 }
 @media (max-width: 500px) {
+    .hide-on-desctop-socials-banner {
+        display: flex;
+    }
     .socials__buttonbox-button--text {
         font-size: 15px;
     }

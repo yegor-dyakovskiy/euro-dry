@@ -97,12 +97,12 @@
         max-width: 220px;
     }
 }
-@media (max-width: 475px) {
+@media (max-width: 498px) {
     .gallery__photos-photo {
-        max-width: 400px;
+        max-width: 380px;
     }
     .gallery__photos {
-        padding: 0 20px;
+        padding: 0 25px;
         margin-bottom: 10px;
     }
 }
