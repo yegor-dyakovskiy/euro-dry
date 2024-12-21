@@ -37,6 +37,15 @@
 .hide-gallery-desctop {
     display: none;
 }
+.gallery__photos-photo_slider {
+    object-fit: cover;
+}
+.gallery__button, .service__buttons_1row-right, .service__buttons_1row-left, .service__buttons_2row-left, .service__buttons_2row-right, .service__buttons_3row-left, .service__buttons_3row-right {
+    transition: all 0.2s;
+}
+.gallery__button:active, .service__buttons_1row-right:active, .service__buttons_1row-left:active, .service__buttons_2row-left:active, .service__buttons_2row-right:active, .service__buttons_3row-left:active, .service__buttons_3row-right:active {
+    transform: translateY(2px);
+}
 @media (max-width: 1250px) {
     .gallery__photos {
         justify-content: space-around;
@@ -104,5 +113,8 @@
     .gallery__photos {
         padding: 0 25px;
         margin-bottom: 10px;
+    }
+    .gallery {
+        margin-top: -120px;
     }
 }

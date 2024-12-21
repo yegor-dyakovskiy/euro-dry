@@ -52,7 +52,25 @@
     text-decoration-skip-ink: none;
     color: #15d1d9;
     cursor: pointer;
+    transition: all 0.2s;
 }
+.header__nav-item:hover {
+    font-size: 18px;
+  }
+.header__textTelephone:hover {
+    font-size: 24px;
+  }
+.footer__lists-link:hover {
+    font-size: 18px;
+}
+  
+  /* Отключение hover для устройств с грубым вводом (тачскрин) */
+  @media (hover: none) and (pointer: coarse) {
+    .header__nav-item:hover, .header__textTelephone:hover, .footer__lists-link:hover {
+      background-color: inherit; /* Возврат к исходному стилю */
+      color: inherit;
+    }
+  }
 
 .header__button {
     display: flex;

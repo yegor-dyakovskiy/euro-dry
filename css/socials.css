@@ -34,6 +34,13 @@
     text-decoration: none;
     width: 360px;
     cursor: pointer;
+    transition: all 0.2s;
+}
+.socials__buttonbox-button:hover {
+    background-color: #00C5CD 
+}
+.socials__buttonbox-button:active {
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .socials_banner {
     padding: 120px 5px;
